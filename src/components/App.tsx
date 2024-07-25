@@ -1,7 +1,8 @@
-import MainPage from "../pages/main";
+import MainScreen from "../pages/main-screen";
 
-function App() {
-  <MainPage />
+
+function App({offers}): JSX.Element {
+  return <MainScreen offers = {offers}/>;
 }
 
 export default App;
